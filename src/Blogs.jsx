@@ -2,17 +2,17 @@ import * as React from 'react'
 function Blogs() {
     const Blogs=[
         {
-            image: '../public/blog_2.png',  // Replace with correct image paths
+            image: '/blog_2.png',  // Replace with correct image paths
             title: 'How much Protein should you have everyday?',
             readTime: '3 MIN READ',
           },
           {
-            image: '../public/blog_3.png',
+            image: '/blog_3.png',
             title: 'Fuel your Day Right: Importance of a Nutrient Rich Breakfast',
             readTime: '3 MIN READ',
           },
           {
-            image: '../public/blog_1.jpg',
+            image: '/blog_1.jpg',
             title: 'Is the food we eating really nutritious?',
             readTime: '3 MIN READ',
           },
