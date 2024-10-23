@@ -26,7 +26,7 @@ const FeaturedProducts = ({addToCart, cart}) => {
     <>
       <div className="featureContainer">
         <div className="featureHeadText">
-          <h2>Feature Categories</h2>
+        <h2 className="featureHeadText" style={{fontSize:'30px',marginTop:'15px'}}>Feature Categories</h2>
         </div>
         <div className="featureCard">
           {products && products.map((item,index)=>{

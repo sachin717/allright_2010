@@ -10,6 +10,7 @@ import FooterSection from './components/FooterSection'
 import Usage from './components/Usage'
 import Footer from './components/Footer'
 import Blogs from './Blogs'
+import IngredientComponent from './components/IngredientComponent'
 
 
 const HomePage = ({addToCart, cart}) => {
@@ -41,6 +42,7 @@ const HomePage = ({addToCart, cart}) => {
     <BenifitSection/>
     <DescriptionSection/>
     <Blogs/>
+    <IngredientComponent/>
     <Footer/>
 
 
