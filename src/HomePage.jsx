@@ -39,10 +39,10 @@ const HomePage = ({addToCart, cart}) => {
     {/* <Gallery/> */}
     <Usage />
     <FeaturedProducts addToCart={addToCart} cart={cart}/>
+    <IngredientComponent/>
     <BenifitSection/>
     <DescriptionSection/>
     <Blogs/>
-    <IngredientComponent/>
     <Footer/>
 
 

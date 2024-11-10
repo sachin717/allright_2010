@@ -26,7 +26,8 @@ const Footer = () => {
             <button type="submit" className="subscribe-btn">SUBSCRIBE</button>
           </form>
         </div>
-        <div className="footer-section footer-section2">
+        <div className="footer-section">
+          <div className='footer-section2'>
           <h4>Get Connected</h4>
           <ul className="social-links">
             <li><a href="#facebook">Facebook</a></li>
@@ -36,6 +37,7 @@ const Footer = () => {
           <div className="contact-info">
             <p><a href="mailto:support@allright.com">📩support@allright.com</a></p>
             <p><a href="tel:+918556811001">📱+91 85568-11001</a></p>
+            </div>
           </div>
         </div>
       </div>
